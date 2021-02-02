@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <input type="text" id="navn">
+    <button>klik og kig i kosollen</button>
+    <script>
+        const time = new Date().getHours();
+        console.log("time", time);
+
+        if (time < 5) {
+            console.log("Godnat", time);
+        } else if (time < 10) {
+            console.log("Godmorgen", time);
+        } else if (time < 18) {
+            console.log("Goddag", time);
+        } else {
+            console.log("Godaften", time);
+        }
+    </script>
+</body></html>
