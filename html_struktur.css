@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+article {
+    border: 1px solid black;
+    grid-gap: 2vw;
+    margin: 1vw;
+}
+
+@media (min-width: 800px) {
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1vw;
+        margin: 1vw;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+
+    section {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding: 1vw;
+        margin: 1vw;
+    }
+}
+
+footer {
+    border: 1px solid black;
+    text-align: center;
+}
