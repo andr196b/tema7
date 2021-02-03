@@ -29,35 +29,41 @@
     </main>
     <footer>This is a footer</footer>
     <script>
-        const titel = document.querySelector("header");
-        console.log(titel);
+        const titel = document.querySelector("h1");
+        titel.textContent = "Billeder";
+        console.log(titel.textContent);
 
-        const underTitel = document.querySelector("main");
-        console.log(underTitel);
+        //        const underTitel = document.querySelector("main");
+        //        console.log(underTitel);
 
 
-        const mainGrid = document.querySelector("section");
-        console.log(mainGrid);
+        const mainGrid = document.querySelector("h2");
+        mainGrid.textContent = "Billedegalleri";
+        console.log(mainGrid.textContent);
 
         const pic1 = document.querySelector("article:first-child img");
         console.log(pic1);
 
         const firstH3 = document.querySelector("article:first-child h3");
-        console.log(firstH3);
+        firstH3.textContent = "Natur billeder";
+        console.log(firstH3.textContent);
 
         const firstP = document.querySelector("article:first-child p");
-        console.log(firstP);
+        firstP.textContent = "her er en masse forskellige naturbilleder";
+        console.log(firstP.textContent);
 
-        const pic2 = document.querySelector("article:secound-child img");
+        const pic2 = document.querySelector("article:second-child img");
         console.log(pic2);
 
-        const secoundH3 = document.querySelector("article:secound-child h3");
-        console.log(secoundH3);
+        const secH3 = document.querySelector("article: h3");
+        secH3H3.textContent = "Natur billeder";
+        console.log(secH3H3.textContent);
 
-        const secoundP = document.querySelector("article:secound-child p");
-        console.log(secoundP);
+        const secoundP = document.querySelector("article:second-child p");
+        console.log(secondP);
 
         const foot = document.querySelector("footer");
-        console.log(foot);
+        foot.textContent = "Tekst lavet om i footer";
+        console.log(foot.textContent);
     </script>
 </body></html>
